@@ -1,0 +1,63 @@
+.revision-history {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.revision-history h3 {
+  font-size: 1.25rem;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.no-revisions {
+  color: #6b7280;
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.chart-container {
+  margin-bottom: 1.5rem;
+}
+
+.revisions-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.revision-item {
+  padding: 0.75rem;
+  background: #f9fafb;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.revision-item:last-child {
+  margin-bottom: 0;
+}
+
+.revision-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.revision-number {
+  font-weight: 600;
+  color: #1f2937;
+  font-size: 0.875rem;
+}
+
+.revision-score {
+  color: #3b82f6;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.revision-date {
+  color: #6b7280;
+  font-size: 0.75rem;
+}

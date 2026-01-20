@@ -43,7 +43,6 @@ I created a complete content management system with the following features:
 
 **AI:**
 - OpenRouter API
-- GPT-3.5-turbo model
 
 ## How to Run This Project
 
@@ -66,8 +65,6 @@ cd ..
 The `.env` file is already included with the project. It contains:
 - MongoDB connection string
 - OpenRouter API key
-- JWT secret
-- Port configuration
 
 ### Step 3: Start the Application
 
@@ -288,3 +285,4 @@ This project demonstrates a complete full-stack application with AI integration.
 
 
 **Note:** All credentials are included in the `.env` file for easy testing.
+
